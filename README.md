@@ -1,2 +1,1 @@
-# JSONParsingApp
-This app uses the internet to access a site (url) with JSON data on it, and uses that data when a button is pressed to show its contents in a way that I have specified.  This uses the "Volley" dependency in the app build.gradle.
+This app uses the internet to access a site (url) with JSON data on it, and uses that data when a button is pressed to show its contents in a way that I have specified.  This uses the "Volley" dependency in the app build.gradle.  Note that this also utilizes a ScrollView to encapsulate the TextView and thus allow scrolling because the data does not fit on a single page.
