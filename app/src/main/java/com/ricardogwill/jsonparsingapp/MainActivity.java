@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
                     for (int i = 0; i < jsonArray.length(); i++) {
                         JSONObject statesJSONObject = jsonArray.getJSONObject(i);
 
-                        int numberString = statesJSONObject.getInt("number");
+                        int numberInt = statesJSONObject.getInt("number");
                         String nameString = statesJSONObject.getString("name");
                         String capitalString = statesJSONObject.getString("capital");
 
-                        resultTextView.append(  String.valueOf(numberString) + ": " + nameString + "\n" +
+                        resultTextView.append(  String.valueOf(numberInt) + ": " + nameString + "\n" +
                                                 "★ " + capitalString + "\n\n");
                     }
 
